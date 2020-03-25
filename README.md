@@ -1,7 +1,5 @@
 # clickhouse with docker-compose running
 
-## https://github.com/rongfengliang/clickhouse-docker-compose
-
 ## How to run
 
 ```code
