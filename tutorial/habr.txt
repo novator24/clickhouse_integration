@@ -1,0 +1,10 @@
+https://habr.com/ru/post/142067/
+
+sudo apt-get install davfs2
+
+mkdir /mnt/yandex.disk
+
+mount -t davfs https://webdav.yandex.ru /mnt/yandex.disk/
+
+df -h /mnt/yandex.disk/
+
