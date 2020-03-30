@@ -1,3 +1,9 @@
 https://github.com/rongfengliang/clickhouse-docker-compose
 
+https://yandex.ru/dev/disk/rest/
+
+ID: 37c67ced8fcf4e7691046386b7c45eb4
+Пароль: 118e0467fb86463c859fe4e393bc5091
+Callback URL: https://novator24.github.io/
+
 docker-compose up -d
