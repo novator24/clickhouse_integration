@@ -41,7 +41,7 @@ CREATE TABLE wikistat
 
 ```code
 docker run -i yandex/clickhouse-client  --format_csv_delimiter="|" --host ${serverhost} --query="INSERT INTO d
-efault.wikistat3 FORMAT CSV" < ./data/info.csv
+efault.wikistat3 FORMAT CSV" < ./data/event-data.json
 ```
 
 * select result
