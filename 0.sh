@@ -10,3 +10,4 @@ git commit -m "CLI-002 up"
 git push
 docker stop $(docker ps -a -q)
 docker rm $(docker ps -a -q)
+docker volume rm $(docker volume ls -qf dangling=true)
