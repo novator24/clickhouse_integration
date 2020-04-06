@@ -1,4 +1,3 @@
 #!/bin/sh
 set -e -x
-docker pull puckel/docker-airflow
-
+(mkdir -p uchi_ru && cd uchi_ru && docker pull puckel/docker-airflow)
