@@ -6,4 +6,4 @@ git add 2.sh
 git add 3.sh
 git commit -m "CLI-001 up"
 git push
-
+docker rm $(docker ps -a -q)
